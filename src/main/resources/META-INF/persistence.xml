@@ -7,6 +7,8 @@
         <description> Hibernate</description>
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>model.User</class>
+        <class>model.Disease</class>
+        <class>model.Epidemic</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver" />
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/java_web" />
